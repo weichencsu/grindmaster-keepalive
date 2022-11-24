@@ -42,6 +42,7 @@ def main():
 
         r1 = s.get('https://weichencsu-grindmaster-kbl-app-0-0-1-ktda3w.streamlit.app')
         st.markdown('visited ' + 'https://weichencsu-grindmaster-kbl-app-0-0-1-ktda3w.streamlit.app')
+        time.sleep(30)
         r2 = s.get('https://weichencsu-6772696e646d61737465722d6268706f64-app-0-0-1-qhx0kj.streamlit.app')
         st.markdown('visited ' + 'https://weichencsu-6772696e646d61737465722d6268706f64-app-0-0-1-qhx0kj.streamlit.app')
         r3 = s.get('https://weichencsu-grind-master-kal-app-0-0-1-iyw8gj.streamlit.app')
